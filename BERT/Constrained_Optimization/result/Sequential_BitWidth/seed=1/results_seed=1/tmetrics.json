@@ -1,0 +1,72 @@
+{
+    "cola": {
+        "eval_loss": 0.7473,
+        "eval_model_preparation_time": 0.0033,
+        "eval_matthews_correlation": -0.045,
+        "eval_runtime": 1.2934,
+        "eval_samples_per_second": 806.429,
+        "eval_steps_per_second": 25.515
+    },
+    "sst2": {
+        "eval_loss": 0.4279,
+        "eval_model_preparation_time": 0.0031,
+        "eval_accuracy": 0.8761,
+        "eval_runtime": 1.4818,
+        "eval_samples_per_second": 588.49,
+        "eval_steps_per_second": 18.896
+    },
+    "mrpc": {
+        "eval_loss": 0.7538,
+        "eval_model_preparation_time": 0.003,
+        "eval_accuracy": 0.701,
+        "eval_f1": 0.819,
+        "eval_averaged_scores": 0.76,
+        "eval_runtime": 1.3617,
+        "eval_samples_per_second": 299.623,
+        "eval_steps_per_second": 9.547
+    },
+    "stsb": {
+        "eval_loss": 7.873,
+        "eval_model_preparation_time": 0.0031,
+        "eval_pearson": 0.1693,
+        "eval_spearmanr": 0.1668,
+        "eval_averaged_scores": 0.1681,
+        "eval_runtime": 1.9689,
+        "eval_samples_per_second": 761.849,
+        "eval_steps_per_second": 23.871
+    },
+    "qqp": {
+        "eval_loss": 1.0934,
+        "eval_model_preparation_time": 0.0031,
+        "eval_accuracy": 0.6251,
+        "eval_f1": 0.6598,
+        "eval_averaged_scores": 0.6425,
+        "eval_runtime": 38.4538,
+        "eval_samples_per_second": 1051.391,
+        "eval_steps_per_second": 32.871
+    },
+    "mnli": {
+        "eval_loss": 0.9344,
+        "eval_model_preparation_time": 0.0031,
+        "eval_accuracy": 0.6383,
+        "eval_runtime": 12.6897,
+        "eval_samples_per_second": 773.463,
+        "eval_steps_per_second": 24.193
+    },
+    "qnli": {
+        "eval_loss": 0.6213,
+        "eval_model_preparation_time": 0.003,
+        "eval_accuracy": 0.6756,
+        "eval_runtime": 8.3633,
+        "eval_samples_per_second": 653.213,
+        "eval_steps_per_second": 20.447
+    },
+    "rte": {
+        "eval_loss": 0.7126,
+        "eval_model_preparation_time": 0.003,
+        "eval_accuracy": 0.6101,
+        "eval_runtime": 1.3708,
+        "eval_samples_per_second": 202.077,
+        "eval_steps_per_second": 6.566
+    }
+}

@@ -1,0 +1,19 @@
+base_model: mistralai/Mistral-7B-v0.1
+dtype: float16
+merge_method: dare_ties
+models:
+- model: mistralai/Mistral-7B-v0.1
+- model: augmxnt/shisa-gamma-7b-v1
+  parameters:
+    density: 0.9821680748487168
+    weight: 0.3834600375922822
+- model: GAIR/Abel-7B-002
+  parameters:
+    density: 0.6399996890469571
+    weight: 0.9045389456713688
+- model: WizardLM/WizardMath-7B-V1.1
+  parameters:
+    density: 0.5660600972408847
+    weight: 0.4402429542785782
+parameters:
+  int8_mask: 1.0

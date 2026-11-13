@@ -1,0 +1,72 @@
+{
+    "cola": {
+        "eval_loss": 0.8268,
+        "eval_model_preparation_time": 0.0028,
+        "eval_matthews_correlation": 0.5105,
+        "eval_runtime": 1.559,
+        "eval_samples_per_second": 669.008,
+        "eval_steps_per_second": 21.167
+    },
+    "sst2": {
+        "eval_loss": 0.3283,
+        "eval_model_preparation_time": 0.0053,
+        "eval_accuracy": 0.8842,
+        "eval_runtime": 1.7976,
+        "eval_samples_per_second": 485.094,
+        "eval_steps_per_second": 15.576
+    },
+    "mrpc": {
+        "eval_loss": 0.7174,
+        "eval_model_preparation_time": 0.0051,
+        "eval_accuracy": 0.7181,
+        "eval_f1": 0.8281,
+        "eval_averaged_scores": 0.7731,
+        "eval_runtime": 1.5922,
+        "eval_samples_per_second": 256.256,
+        "eval_steps_per_second": 8.165
+    },
+    "stsb": {
+        "eval_loss": 7.8787,
+        "eval_model_preparation_time": 0.0051,
+        "eval_pearson": 0.6456500000000001,
+        "eval_spearmanr": 0.6624,
+        "eval_averaged_scores": 0.6540250000000001,
+        "eval_runtime": 2.4402,
+        "eval_samples_per_second": 614.706,
+        "eval_steps_per_second": 19.261
+    },
+    "qqp": {
+        "eval_loss": 1.035,
+        "eval_model_preparation_time": 0.0052,
+        "eval_accuracy": 0.6635,
+        "eval_f1": 0.6803,
+        "eval_averaged_scores": 0.6719,
+        "eval_runtime": 51.957,
+        "eval_samples_per_second": 778.144,
+        "eval_steps_per_second": 24.328
+    },
+    "mnli": {
+        "eval_loss": 0.9121,
+        "eval_model_preparation_time": 0.0031,
+        "eval_accuracy": 0.6466,
+        "eval_runtime": 17.0184,
+        "eval_samples_per_second": 576.729,
+        "eval_steps_per_second": 18.039
+    },
+    "qnli": {
+        "eval_loss": 0.6694,
+        "eval_model_preparation_time": 0.0051,
+        "eval_accuracy": 0.6687,
+        "eval_runtime": 11.1666,
+        "eval_samples_per_second": 489.226,
+        "eval_steps_per_second": 15.314
+    },
+    "rte": {
+        "eval_loss": 0.6806,
+        "eval_model_preparation_time": 0.0051,
+        "eval_accuracy": 0.6354,
+        "eval_runtime": 1.6104,
+        "eval_samples_per_second": 172.006,
+        "eval_steps_per_second": 5.589
+    }
+}

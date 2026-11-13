@@ -1,0 +1,39 @@
+base_model: bert-base-uncased
+dtype: float16
+merge_method: dare_ties
+models:
+- model: bert-base-uncased
+- model: cola
+  parameters:
+    density: 0.9213314297113434
+    weight: 0.4793415077347009
+- model: sst2
+  parameters:
+    density: 0.7487603722767117
+    weight: 0.9896136571155568
+- model: mrpc
+  parameters:
+    density: 0.2579504431532303
+    weight: 0.5869457114931641
+- model: stsb
+  parameters:
+    density: 0.7105579374383055
+    weight: 0.8770253231287048
+- model: qqp
+  parameters:
+    density: 0.39588721498892326
+    weight: 0.29766498059944635
+- model: mnli
+  parameters:
+    density: 0.874422907469021
+    weight: 0.7139281613590511
+- model: qnli
+  parameters:
+    density: 0.42066994653017553
+    weight: 0.5020449760519288
+- model: rte
+  parameters:
+    density: 0.4910175056514497
+    weight: 0.8035330007225239
+parameters:
+  int8_mask: 1.0

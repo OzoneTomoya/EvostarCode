@@ -1,0 +1,39 @@
+base_model: bert-base-uncased
+dtype: float16
+merge_method: dare_ties
+models:
+- model: bert-base-uncased
+- model: cola
+  parameters:
+    density: 0.5
+    weight: 0.5
+- model: sst2
+  parameters:
+    density: 0.5
+    weight: 0.5
+- model: mrpc
+  parameters:
+    density: 0.5
+    weight: 0.5
+- model: stsb
+  parameters:
+    density: 0.5
+    weight: 0.5
+- model: qqp
+  parameters:
+    density: 0.5
+    weight: 0.5
+- model: mnli
+  parameters:
+    density: 0.5
+    weight: 0.5
+- model: qnli
+  parameters:
+    density: 0.5
+    weight: 0.5
+- model: rte
+  parameters:
+    density: 0.5
+    weight: 0.5
+parameters:
+  int8_mask: 1.0

@@ -1,0 +1,24 @@
+base_model: mistralai/Mistral-7B-v0.1
+dtype: float16
+merge_method: dare_ties
+parameters:
+  int8_mask: 1.0
+slices:
+- sources:
+  - layer_range: [0, 32]
+    model: mistralai/Mistral-7B-v0.1
+  - layer_range: [0, 32]
+    model: augmxnt/shisa-gamma-7b-v1
+    parameters:
+      density: 0.9822042131427172
+      weight: 0.38467779360868215
+  - layer_range: [0, 32]
+    model: GAIR/Abel-7B-002
+    parameters:
+      density: 0.6404334000551656
+      weight: 0.9059619800765826
+  - layer_range: [0, 32]
+    model: WizardLM/WizardMath-7B-V1.1
+    parameters:
+      density: 0.5630261631051693
+      weight: 0.44223642306144184
